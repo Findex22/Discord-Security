@@ -5,7 +5,7 @@ import re
 import os
 from collections import defaultdict
 
-TOKEN = 'MTM2MzAzNjgxMDc0OTY3MzU2Nw.GrITX6.OtClanjmZ8MWZseikGvrG7ei48vZ-fZBouu43c' 
+TOKEN = 'MTM2MzAzNjgxMDc0OTY3MzU2Nw.G07X1A.qpzg6fv9ySnUMaFtY6cR6yuWdBtCuVfkhh2Je0' 
 ADMIN_ROLE_ID = 1279892066318684231
 PREFIX = '#'
 
