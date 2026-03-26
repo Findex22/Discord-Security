@@ -7,7 +7,7 @@ from collections import defaultdict
 
 # ================= CONFIG =================
 TOKEN = os.getenv("TOKEN")  # IMPORTANT: Railway env variable
-ADMIN_ROLE_ID = 1279892066318684231
+ADMIN_ROLE_ID = 1357401411251605545
 PREFIX = '#'
 
 if not TOKEN:
