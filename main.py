@@ -5,7 +5,8 @@ import re
 import os
 from collections import defaultdict
 
-TOKEN = 'MTM2MzAzNjgxMDc0OTY3MzU2Nw.GrITX6.OtClanjmZ8MWZseikGvrG7ei48vZ-fZBouu43c' 
+load_dotenv()
+TOKEN = os.getenv('DISCORD_TOKEN')
 ADMIN_ROLE_ID = 1279892066318684231
 PREFIX = '#'
 
