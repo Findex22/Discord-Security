@@ -4,9 +4,13 @@ import datetime
 import re
 import os
 from collections import defaultdict
+from dotenv import load_dotenv  # <--- YE LINE MISSING THI
 
+# Iske baad load_dotenv() chalega
 load_dotenv()
+
 TOKEN = os.getenv('DISCORD_TOKEN')
+# Baki saara code niche...
 ADMIN_ROLE_ID = 1279892066318684231
 PREFIX = '#'
 
